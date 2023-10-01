@@ -145,7 +145,7 @@ nav>button:hover{
     justify-content: center;
     align-content: center;
     padding: 10% 5%;
-    background-image: url('blur.jpg');
+    background-image: url('./photos and videos/blur.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -318,7 +318,7 @@ nav>button:hover{
     border: 1px solid ;
     height: 185vh;
     width: 100%;
-    background-image: url('last_pic.jpg');
+    background-image: url('./photos and videos/last_pic.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
@@ -399,7 +399,7 @@ nav>button:hover{
     font-size: 20px;
     color: white;
     padding: 70px 0px 0px 0px;
-    background-image: url('c1.jpg');
+    background-image: url('./photos and videos/c1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -411,7 +411,7 @@ nav>button:hover{
     font-size: 20px;
     color: white;
     padding: 70px 0px 0px 0px;
-    background-image: url('c3.jpg');
+    background-image: url('./photos and videos/c3.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
@@ -431,7 +431,7 @@ nav>button:hover{
     font-size: 20px;
     color: white;
     padding: 70px 0px 0px 0px;
-    background-image: url('c2.jpg');
+    background-image: url('./photos and videos/c2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -443,7 +443,6 @@ nav>button:hover{
     font-size: 20px;
     color: white;
     padding: 70px 0px 0px 0px;
-    background-color: black;
     border-radius: 0px 0px 25px 0px;
 }
 
