@@ -1,0 +1,755 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    border: 2px solid orange;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: orange;
+}
+.Part-one>i{
+    font-size:100%;
+    margin: 0% 1%;
+    color: red;
+}
+
+nav {
+    border: 2px solid black;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: wheat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    z-index: 1;
+}
+
+nav>h1 {
+    margin-left: 25px;
+    color:orangered;
+}
+
+nav>ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav>ul>li {
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+nav>button {
+    width:10%;
+    padding: 1% 1%;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    margin-right:3% ;
+    border-radius: 25px;
+    font-weight: 900;
+}
+nav>button:hover{
+    color: white;
+    background-color: red;
+    transition: all 0.5s linear;
+}
+.home{
+    /* border: 2px solid rgb(245, 4, 4); */
+    height: 120vh;
+    width: 100%;
+    position: relative;
+
+} 
+.home>video{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}   
+.home-text{
+    font-size: 40px;
+    text-align: center;
+    /* border: 2px solid blue; */
+    width: 50%;
+    position: absolute;
+    left:25%;
+    top: 35%;
+    color: rgb(255, 255, 255);
+}
+.home-text>p{
+    font-size: 50%;
+    margin-bottom: 2%;
+}
+.home-text>button{
+        width: 20%;
+        padding: 1.5% 1%;
+        background-color: orange;
+        color: white;
+        font-size: 20px;
+        border-radius: 25px;
+        font-weight: 900;
+        margin-top: 2%;
+}
+.home-text>button:hover{
+    background-color: red;
+    transition: all 0.5s linear;
+}
+.bottum-text{
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding: 1.5%;
+    font-size: 23px;
+    position: absolute;
+    bottom: 2%;
+    color: white;
+}
+.ab-text{
+    /* border: 2px solid red ; */
+    padding: 1.2%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 50vh;
+    width: 45vw;
+    color: white;
+}
+.ab-text>h1,h3{
+    margin: 1.5% 0%;
+}
+.about{
+    /* border: 2px solid red; */
+    height: 90vh;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding: 10% 5%;
+    background-image: url('blur.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.ab-pic{
+    /* border: 2px solid green; */
+    border-radius: 25px;
+    height: 50vh;
+    position: relative;
+}
+.ab-pic>img{
+    border-radius: 25px;
+    height: 50vh;
+    
+}
+.ab-mini{
+    /* border: 2px solid blue; */
+    width: 90%;
+    height: 30%;
+    position: absolute;
+    left: 5%;
+    top:65%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding: 10px;
+    background-color: white;
+    opacity: 0.9;
+}
+.ab-mini>.con{
+ font-size: 35px;
+ margin:10px 25px;
+}
+/* Artist section  */
+.artist{
+    /* border: 2px solid red; */
+    height: 170vh;
+}
+.artist h2 {
+    text-align: center;
+    margin-top: 5%;
+    font-weight: 900;
+    font-size: 46px;
+}
+
+.artist-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.card-1 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+}
+.card-1{
+    /* border: 2px solid red; */
+    margin: 10px;
+    height: 700px;
+    width:40%;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+}
+.card-1h{
+    border: 2px solid ;
+    border-radius: 25px;
+    height: 38%;
+    margin-top: 0;
+        margin-left: 5%;
+        width: 90%;
+        position: absolute;
+        top: 105%;
+        color:orange;
+        font-weight: bolder;
+        transition: all 1s linear;
+        line-height: 40px;
+        font-size: 22px;
+        padding: 20px;
+    
+        background-color: transparent;
+        backdrop-filter: blur(13px);
+}
+.card-1:hover>.card-1h{
+    top:60%
+}
+
+.card-2 img {
+    width:100%;
+    border-radius: 25px;
+    height: 100%;
+    object-fit: cover;
+}
+.card-2 {
+    /* border: 2px solid red; */
+    width: 450px;
+        margin: 0px 20px 20px 20px;
+        border-radius: 25px;
+        height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-2h {
+    border: 2px solid;
+    border-radius: 25px;
+    height: 85%;
+    margin-left: 5%;
+    width: 90%;
+    position: absolute;
+    top: 105%;
+    color: orange;
+    font-weight: bolder;
+    transition: all 1s linear;
+    line-height: 50px;
+    font-size: 24px;
+    padding: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(13px);
+}
+
+.card-2:hover>.card-2h {
+    top: 10%
+}
+
+.card-3 img {
+    width: 100%;
+    border-radius: 25px;
+    height: 100%;
+    object-fit: cover;
+}
+.card-3 {
+    /* border: 2px solid red; */
+    width: 450px;
+    margin: 0px 20px 20px 20px;
+    border-radius: 25px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-3h {
+    border: 2px solid;
+    border-radius: 25px;
+    height: 85%;
+    margin-left: 5%;
+    width: 90%;
+    position: absolute;
+    top: 105%;
+    color: orange;
+    font-weight: bolder;
+    transition: all 1s linear;
+    line-height: 50px;
+    font-size: 24px;
+    padding: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+
+.card-3:hover>.card-3h {
+    top: 10%
+}
+/* table part */
+.tb-main{
+    border: 1px solid ;
+    height: 185vh;
+    width: 100%;
+    background-image: url('last_pic.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    object-fit: cover;
+}
+.tb-main>h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 60px 0px 50px 0px;
+    color: white;
+}
+.tb{
+   /* border:2px solid green; */
+   width: 69.8%;
+   margin-left: 8%;
+   margin-top: 3%;
+   border-radius: 25px;
+   display: grid;
+   grid-template-columns: 150px repeat(3,290px);
+   grid-template-rows: 100px repeat(3,220px);
+}
+.tb>.one{
+    background-color: aqua;
+    border: 1px solid black
+    
+}
+.tb>.one-1{
+    border-radius:25px 0px 0px 0px;
+    border: 1px solid black;
+    background-color: orangered;
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-weight: 900;
+}
+.tb>.one-2,.one-3{
+    border: 1px solid black;
+    background-color: orangered;
+        padding: 40px;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        font-weight: 900;
+}
+.tb>.one-4 {
+    border-radius: 0px 25px 0px 0px;
+    border: 1px solid black;
+    background-color: orangered;
+        padding: 40px;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        font-weight: 900;
+}
+.tb>.one-5,.one-9{
+    border: 1px solid white;
+    background-color: black;
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-weight: 900;
+}
+.tb>.one-13 {
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 0px 0px 0px 25px;
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-weight: 900;
+}
+.tb>.one-6{
+    border: 1px solid white;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 70px 0px 0px 0px;
+    background-image: url('c1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    object-fit: cover;
+}
+.tb>.one-8{
+    border: 1px solid white;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 70px 0px 0px 0px;
+    background-image: url('c3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    object-fit: cover;
+}
+.tb>.one-11{
+    border: 1px solid white;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 70px 0px 0px 0px;
+    background-color: black;
+}
+.tb>.one-14 {
+    border: 1px solid white;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 70px 0px 0px 0px;
+    background-image: url('c2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    object-fit: cover;
+}
+.tb>.one-16 {
+    border: 1px solid white;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 70px 0px 0px 0px;
+    background-color: black;
+    border-radius: 0px 0px 25px 0px;
+}
+
+.tb>.one-7,.one-10,.one-12,.one-15 {
+    border: 1px solid white;
+    background-color: rgb(111, 235, 237);
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-weight: 900;
+}
+.tb>.one-12,.one-15 {
+    border: 1px solid white;
+    background-color: rgb(237, 170, 111);
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-weight: 900;
+}
+
+
+.event-section {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h2 {
+    text-align: center;
+    margin-top: 5%;
+    font-weight: 900;
+    font-size: 46px;
+}
+
+
+.plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.plan-card {
+    border: 5px dotted black;
+    padding:40px;
+    margin: 0px 20px 0px 0px ;
+    height: 50vh;
+    width: 40%;
+    border-radius: 20px;
+    position: relative;
+}
+
+.plan-card h3 {
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.plan-card .big-font {
+    font-size: 35px;
+    font-weight: 900;
+    margin-left: 20px;
+}
+
+.plan-card p {
+    font-size: 17px;
+    color: gray;
+    margin-top: 2%;
+}
+
+.plan-card ul {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    font-size: 17px;
+    color: gray;
+    margin-top: 5%;
+}
+
+.plan-card ul li {
+    margin: 10px;
+}
+
+.plan-card a {
+    margin-top: 2%;
+    color: red;
+}
+
+.related h3 {
+    position: absolute;
+    padding: 10px;
+    font-size: 25px;
+    background-color: orangered;
+    border-radius: 50%;
+    width: 20%;
+    text-align: center;
+    top: 10px;
+    margin-top: 10px;
+    color: white;
+    right: 15px;
+}
+/* plan card part2 */
+.plan-card1 {
+    border: 5px dotted black;
+    padding: 40px;
+    margin: 50px 0px 20px 20px;
+    height: 60vh;
+    width: 40%;
+    border-radius: 20px;
+    position: relative;
+}
+.plan-card1 h3 {
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.plan-card1 .big-font {
+    font-size: 35px;
+    font-weight: 900;
+    margin-left: 20px;
+}
+
+.plan-card1 p {
+    font-size: 17px;
+    color: gray;
+    margin-top: 2%;
+}
+
+.plan-card1 ul {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: gray;
+    margin-top: 5%;
+}
+
+.plan-card1 ul li {
+    margin: 10px;
+}
+
+.plan-card1 a {
+    margin-top: 2%;
+    color: red;
+}
+
+/* form part */
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact h2 {
+    margin-top: 5%;
+    font-weight: 900;
+    font-size: 46px;
+}
+
+.contact button {
+    color: orangered;
+    text-align: center;
+    margin-top: 2%;
+    font-weight: 900;
+    font-size: 35px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    box-shadow: 5px 5px 5px 5px rgba(156, 153, 152, 0.861);
+}
+.contact button:hover{
+    color: white;
+    background-color: orange;
+    transition: all 0.5s linear;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    margin-top: 3%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(156, 153, 152, 0.861);
+
+}
+
+.form-card {
+    display: flex;
+}
+
+
+.form-card,.form-card1 {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+/* Style the button */
+.form-card>button{
+    margin-left: 38%;
+    background-color: orangered;
+    color: white;
+    height: 50px;
+    font-size: 26px;
+    width: 25%;
+}
+
+
+
+
+.fest-live {
+    margin-top: 3%;
+    background-color: orangered;
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.fest-live h2 {
+    font-weight: 900;
+    font-size: 35px;
+    margin-left: 30px;
+}
+.icons{
+    font-size: 25px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 50vh;
+    width: 100%;
+    padding: 20px;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+.footer-card h3 {
+    font-size: 25px;
+    color: gold;
+    font-weight: 700;
+}
+
+.footer-card ul {
+    display: flex;
+}
+
+.footer-card ul li {
+    list-style: none;
+    margin: 10px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.footer-card p {
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.end {
+    margin-top: 6%;
+    font-weight: 500;
+    font-size: 16px;
+    color: gray;
+}
+
+.end span {
+    margin: 20px;
+}
+.footer-card>a{
+    color: orangered;
+}
+i:hover{
+    border-radius: 50%;
+    animation-name: alwaysrotate;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes alwaysrotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
