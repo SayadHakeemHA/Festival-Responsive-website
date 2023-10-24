@@ -1,0 +1,120 @@
+/* form part */
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact h2 {
+    margin-top: 5%;
+    font-weight: 900;
+    font-size: 5rem;
+}
+
+.contact button {
+    color: orangered;
+    text-align: center;
+    margin-top: 2%;
+    font-weight: 900;
+    font-size: 3.5rem;
+    border-radius: 20px;
+    padding: 1%;
+    border: none;
+    box-shadow: 5px 5px 5px 5px rgba(156, 153, 152, 0.861);
+}
+
+.contact button:hover {
+    color: white;
+    background-color: orange;
+    transition: all 0.5s linear;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 65%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2%;
+    margin-top: 3%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(156, 153, 152, 0.861);
+    font-size: 5rem;
+}
+
+.form-card {
+    display: flex;
+}
+
+
+.form-card,
+.form-card1 {
+    margin-bottom: 2%;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 1.5%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 1%;
+}
+
+/* Style the button */
+.form-card>button {
+    margin-left: 33%;
+    background-color: orangered;
+    color: white;
+    height: 9vh;
+    font-size: 2.5rem;
+    width: 35%;
+}
+
+
+@media(max-width:480px) {
+.contact>h2{
+    font-size: 4rem;
+    padding: 5%;
+}
+.contact>button{
+    margin-bottom: 5%;
+}
+.form{
+    width: 100%;
+    max-width: 90%;
+}
+.form-card>button{
+    width: 45%;
+    font-size: 2rem;
+    margin-left: 27%;
+}
+}
+
+@media(min-width:481px) and (max-width:800px) {
+    .contact>h2{
+        font-size: 4rem;
+        padding: 5%;
+    }
+    .contact>button{
+        margin-bottom: 5%;
+    }
+    .form{
+        width: 100%;
+        max-width: 90%;
+    }
+    .form-card>button{
+        width: 45%;
+        font-size: 2rem;
+        margin-left: 27%;
+    }
+       
+}
+
+@media (min-width:801px) and (max-width:1024px) {
+
+
+}

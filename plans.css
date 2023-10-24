@@ -1,0 +1,166 @@
+.main h2 {
+    text-align: center;
+    margin-top: 5%;
+    font-weight: 900;
+    font-size: 5rem;
+}
+
+.plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5%;
+}
+.plan-card {
+    border: 5px dotted black;
+    padding: 2%;
+    margin: 2% 0% 0% 3%;
+    height: 50vh;
+    width: 40%;
+    border-radius: 20px;
+    position: relative;
+}
+
+.plan-card h3 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.plan-card .big-font {
+    font-size: 4rem;
+    font-weight: 900;
+    margin-left: 4%;
+}
+
+.plan-card p {
+    font-size: 1.7rem;
+    color: gray;
+    margin-top: 2%;
+}
+
+.plan-card ul {
+    /* border: 5px solid black; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 2.5rem;
+    color: gray;
+    margin: 4%;
+}
+
+.plan-card ul li {
+    margin: 2%;
+}
+
+.plan-card a {
+    margin: 2% 0% 0% 3%;
+    color: red;
+    font-size: 2rem;
+}
+
+.related h3 {
+    position: absolute;
+    padding: 2%;
+    font-size: 2.5rem;
+    background-color: orangered;
+    border-radius: 50%;
+    width: 20%;
+    text-align: center;
+    top: 1%;
+    margin-top: 1%;
+    color: white;
+    right: 3%;
+}
+
+/* plan card part2 */
+.plan-card1 {
+    border: 5px dotted black;
+    padding: 2%;
+    margin: 2% 0% 0% 2%;
+    height: 52vh;
+    width: 40%;
+    border-radius: 20px;
+    position: relative;
+}
+
+.plan-card1 h3 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.plan-card1 .big-font {
+    font-size: 4rem;
+    font-weight: 900;
+    margin-left: 4%;
+}
+
+.plan-card1 p {
+    font-size: 1.8rem;
+    color: gray;
+    margin-top: 2%;
+}
+
+.plan-card1 ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 2.5rem;
+    color: gray;
+    margin: 3.5%;
+}
+
+.plan-card1 ul li {
+    margin: 3%;
+}
+
+.plan-card1 a {
+    margin: 2% 0% 0% 3%;
+    color: red;
+    font-size: 2rem;
+}
+
+@media(max-width:480px){
+.main{
+    height: 135vh;
+}
+.plan{
+    /* border: 2px solid black; */
+    margin: 6% 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 90%;
+}
+.plan-card{
+    width:90%
+}
+.plan-card1 {
+    width: 90%
+}
+
+}
+
+@media(min-width:481px) and (max-width:800px) {
+    .main{
+        height: 140vh;
+    }
+    .plan{
+        /* border: 2px solid black; */
+        margin: 6% 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 90%;
+    }
+    .plan-card{
+        width:90%;
+        height: 50%;
+    }
+    .plan-card1 {
+        width: 90%;
+        height: 50%;
+    }
+}
+
+@media (min-width:801px) and (max-width:1024px) {
+
+
+}

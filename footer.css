@@ -1,0 +1,167 @@
+footer {
+    background-color: black;
+    color: white;
+    height: 30vh;
+    width: 100%;
+    padding-top: 2% ;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-card1{
+    /* border: 2px solid blue; */
+    width: 40%;
+    height: 17vh;
+
+}
+
+.footer-card1>h3{
+    font-size: 2.5rem;
+    color: gold;
+    font-weight: 700;
+}
+
+.footer-card1>ul{
+    display: flex;
+}
+
+.footer-card1>ul>li{
+    list-style: none;
+    width: 45%;
+    margin: 2% 0% 0% 0%;
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+.footer-card2{
+    /* border: 2px solid blue; */
+    width: 25%;
+    height: 17vh;
+}
+.footer-card2>h3{
+    font-size: 2.5rem;
+    color: gold;
+    font-weight: 700;
+}
+.footer-card2>p{
+    font-weight: 500;
+    font-size: 1.7rem;
+    margin-top: 3%;
+}
+.footer-card3{
+    /* border:2px solid blue; */
+    width: 30%;
+    height: 17vh;
+}
+.footer-card3>h3 {
+    font-size: 2.5rem;
+    color: gold;
+    font-weight: 700;
+}
+
+.footer-card3>p {
+    font-weight: 500;
+    font-size: 1.7rem;
+    margin-top: 2%;
+}
+
+.footer-card3>a {
+    /* border: 2px solid blue; */
+    font-size: 1.6rem;
+    /* margin-top: 10%; */
+    color: orangered;
+}
+
+.end {
+    height: 10vh;
+    margin-top: 4%;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: gray;
+    background-color: black;
+}
+
+.end>span{
+    margin: 2%;
+}
+
+.footer-card>a {
+    color: orangered;
+}
+
+
+
+@media(max-width:480px) {
+.footer-section{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80vh;
+    width: 100%;
+    padding: 5%;
+}
+.footer-card1{
+    height: 8vh;
+}
+.footer-card1,.footer-card2,.footer-card3{
+    width: 100%;
+    background-color: black;
+}
+.end {
+    /* border: 2px solid blue; */
+    width: 100%;
+    font-weight: 500;
+    font-size: 2.2rem;
+    color: gray;
+    background-color: black;
+    padding:2%;
+    height: 18vh;
+    margin-top: 0%;
+}
+.end>span {
+    margin-right: 12%;
+}
+}
+
+@media(min-width:481px) and (max-width:800px) {
+    .footer-section{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 80vh;
+        width: 100%;
+        padding: 5%;
+    }
+    .footer-card1{
+        height: 8vh;
+    }
+    .footer-card1,.footer-card2,.footer-card3{
+        width: 100%;
+        background-color: black;
+    }
+    .end {
+        /* border: 2px solid blue; */
+        width: 100%;
+        font-weight: 500;
+        font-size: 2.2rem;
+        color: gray;
+        background-color: black;
+        padding:2%;
+        height: 18vh;
+        margin-top: 0%;
+    }
+    .end>span {
+        margin-right: 4%;
+    }
+    
+}
+
+@media (min-width:801px) and (max-width:1024px) {
+
+
+}

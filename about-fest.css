@@ -1,0 +1,146 @@
+.ab-text {
+    /* border: 2px solid red ; */
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 70;
+    width: 40vw;
+    color: white;
+    font-size: 2.8rem;
+}
+.ab-text>h1 {
+    margin: 1.5% 0%;
+    font-size: 3.5rem;
+}
+
+.ab-text>h3 {
+    font-size: 2rem;
+    margin: 1.5% 0%;
+}
+
+.about-fest {
+    /* border: 2px solid red; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 2%;
+    padding: 10% 2%;
+    background-image: url('./assets/blur.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.ab-pic {
+    /* border: 2px solid green; */
+    position: relative;
+}  
+
+.ab-pic>img {
+    border-radius: 25px;
+    height: 60vh;
+    width: 100%;
+}
+
+.ab-mini {
+    /* border: 2px solid blue; */
+    width: 90%;
+    height: 30%;
+    position: absolute;
+    left: 5%;
+    top: 65%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding: 10px;
+    background-color: white;
+    opacity: 0.75;
+    font-size: 3rem;
+}
+
+.ab-mini>.con {
+    font-size: 4.5rem;
+    margin: 1.5% 6%;
+}
+
+.ab-mini>.con1 {
+    margin-top: 3%;
+    font-size: 4rem;
+}
+
+.ab-mini>.con1>p {
+    font-size: 2rem;
+}
+
+@media(max-width:480px){
+    .about-fest{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 150vh;
+        background-image: url('./assets/blur.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 5%;
+    }
+    .ab-mini{
+        width: 90%;
+    }
+    .ab-text{
+        width: 90vw;
+    }
+    .ab-text>h1{
+        color: black;
+    }
+    .ab-text>.p{
+     color: black;
+    }
+}
+
+@media(min-width:481px) and (max-width:800px) {
+    .about-fest{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 180vh;
+        background-image: url('./assets/blur.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 5%;
+    }
+    .ab-pic>img{
+       height: 95%;
+    }
+    .ab-mini{
+        width: 90%;
+        height: 25%;
+    }
+    .ab-text{
+        width: 90vw;
+    }
+    .ab-text>h1{
+        color: black;
+    }
+    .ab-text>p{
+     color: black;
+    }
+
+}
+
+@media (min-width:801px) and (max-width:1024px) {
+  .about-fest{
+    height: 100vh;
+  }
+  .ab-mini{
+    height: 20vh;
+  }
+
+}
