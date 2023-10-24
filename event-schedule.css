@@ -168,7 +168,7 @@
 
 @media(max-width:480px){
     .tb-main{
-        height: 180vh;
+        height: 80rem;
     }
     .tb-main>h1{
         margin-top: 10%;

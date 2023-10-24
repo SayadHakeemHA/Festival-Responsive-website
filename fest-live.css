@@ -23,7 +23,7 @@
 .fest-live{
     display: flex;
     flex-direction: column;
-    height: 20vh;
+    height: 10rem;
     justify-content: flex-start;
     align-items: flex-start;
     padding-left: 6%;

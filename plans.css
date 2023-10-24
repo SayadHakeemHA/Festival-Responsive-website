@@ -119,7 +119,7 @@
 
 @media(max-width:480px){
 .main{
-    height: 135vh;
+    height: 70rem;
 }
 .plan{
     /* border: 2px solid black; */
@@ -130,10 +130,12 @@
     height: 90%;
 }
 .plan-card{
-    width:90%
+    width:90%;
+    height: 40%;
 }
 .plan-card1 {
-    width: 90%
+    width: 90%;
+    height: 40%;
 }
 
 }

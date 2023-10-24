@@ -67,7 +67,7 @@
 
 @media(max-width:480px){
   .banner{
-    height: 100vh;
+    height: 80vh;
     width: 100%;
   }
   .banner-text {

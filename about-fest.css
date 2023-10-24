@@ -83,14 +83,18 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        height: 150vh;
+        height: 70rem;
         background-image: url('./assets/blur.jpg');
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
             padding: 5%;
     }
+    .ab-pic>img{
+        height: 100%;
+    }
     .ab-mini{
+        
         width: 90%;
     }
     .ab-text{

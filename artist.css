@@ -138,7 +138,7 @@
 
 @media(max-width:480px){
     .artist{
-        height: 380vh;
+        height: 170rem;
     }
     .artist-img{
         display: flex;
